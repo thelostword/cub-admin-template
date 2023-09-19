@@ -22,7 +22,6 @@ export default ({ mode }) => defineConfig({
       })],
     }),
     svgLoader(),
-    // vueSetupExtend(),
   ],
   resolve: {
     alias: {

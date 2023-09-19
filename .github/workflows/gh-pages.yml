@@ -32,6 +32,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          token: ${{ secrets.REPO_TOKEN }}
           branch: gh-pages
           folder: dist
           force: true

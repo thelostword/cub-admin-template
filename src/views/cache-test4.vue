@@ -1,0 +1,20 @@
+<template>
+  <div>
+    <h1>页面缓存测试，此页无缓存</h1>
+    <el-input v-model="value" />
+  </div>
+</template>
+
+<script setup>
+import { onMounted, ref } from 'vue';
+
+defineOptions({
+  name: 'CacheTestPage4',
+});
+const value = ref('');
+
+onMounted(() => {
+
+});
+
+</script>

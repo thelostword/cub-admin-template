@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-import { CubPageHeader } from 'cub-admin/components';
+import { CubPageHeader } from 'cub-admin/dist/components';
 
 defineOptions({
   name: 'PageHome',

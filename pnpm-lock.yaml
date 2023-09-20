@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0(vue@3.3.4)
   cub-admin:
-    specifier: 0.0.0-alpha.0
-    version: 0.0.0-alpha.0(@element-plus/icons-vue@2.1.0)(@vueuse/core@10.4.1)(element-plus@2.3.12)(lodash-es@4.17.21)(vue-router@4.2.4)(vue@3.3.4)
+    specifier: 0.0.0-alpha.2
+    version: 0.0.0-alpha.2(element-plus@2.3.12)(vue-router@4.2.4)(vue@3.3.4)
   element-plus:
     specifier: ^2.3.12
     version: 2.3.12(vue@3.3.4)
@@ -2258,15 +2258,12 @@ packages:
   /csstype@3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
 
-  /cub-admin@0.0.0-alpha.0(@element-plus/icons-vue@2.1.0)(@vueuse/core@10.4.1)(element-plus@2.3.12)(lodash-es@4.17.21)(vue-router@4.2.4)(vue@3.3.4):
-    resolution: {integrity: sha512-qWnZKKRiioyxiQMBpaeOb0cmVWKHLpoY3LlVBsE1axUMxhhFeGo64MJZtDxfMLXKRF0FQawtEGRM1h2ak9ttaQ==}
+  /cub-admin@0.0.0-alpha.2(element-plus@2.3.12)(vue-router@4.2.4)(vue@3.3.4):
+    resolution: {integrity: sha512-d1xdLGThHoTTIrU4pElxs+dlAjRsir8s7JDIUWE3BUDeKQ0o4Rix79sHXG48rWAHvWYes2U4tVXXckR472p4cw==}
     requiresBuild: true
     peerDependencies:
-      '@element-plus/icons-vue': ^2.1.0
-      '@vueuse/core': ^10.3.0
       element-plus: ^2.3.8
-      lodash-es: ^4.17.21
-      vue: ^3.2.0
+      vue: ^3.3.4
       vue-router: ^4.2.4
     dependencies:
       '@element-plus/icons-vue': 2.1.0(vue@3.3.4)
@@ -2277,6 +2274,8 @@ packages:
       mitt: 3.0.1
       vue: 3.3.4
       vue-router: 4.2.4(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
     dev: false
 
   /cz-conventional-changelog@3.3.0:

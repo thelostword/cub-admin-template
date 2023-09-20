@@ -1,11 +1,11 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import { registerRoutes } from 'cub-admin';
 import routes from './routes';
 import { cacheTestRoutes } from './modules/cache';
 import { dynamicTestRoutes } from './modules/dynamic';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes,
 });
 

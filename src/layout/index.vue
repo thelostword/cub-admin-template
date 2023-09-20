@@ -28,7 +28,7 @@ import { CubLayout } from 'cub-admin';
 
 import {
   CubFullscreen, CubModeSwitch, CubPrimaryColorChange,
-} from 'cub-admin/components';
+} from 'cub-admin/dist/components';
 </script>
 
 <style lang="scss" scoped>

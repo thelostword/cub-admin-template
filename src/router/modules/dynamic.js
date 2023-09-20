@@ -5,7 +5,7 @@ export const dynamicTestRoutes = [
     path: '/',
     component: 'CubLayout',
     meta: {
-      title: 'cache测试',
+      title: '动态路由测试',
       icon: Plus,
     },
     children: [
@@ -17,6 +17,15 @@ export const dynamicTestRoutes = [
         },
       },
     ],
+  },
+  {
+    path: 'https://github.com',
+    meta: {
+      title: 'GitHub',
+      badge: {
+        value: '外链',
+      },
+    },
   },
 ];
 

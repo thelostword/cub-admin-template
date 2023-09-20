@@ -1,0 +1,1 @@
+import{d as a,u as o,h as n}from"./index-2cf68686.js";const u=a({name:"CubPageRedirect",setup(){const e=o(),{params:t}=e.currentRoute.value;return e.replace({path:window.decodeURIComponent(t.path)||"/"}),()=>n("span")}});export{u as default};

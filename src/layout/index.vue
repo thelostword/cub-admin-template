@@ -2,7 +2,7 @@
   <CubLayout>
     <template #logo="{ isCollapse }">
       <div class="h-full flex justify-center items-center gap-x-3">
-        <img src="../assets/logo.svg" class="h-3/5" alt="Cub Admin Logo" />
+        <img src="/logo.svg" class="h-3/5" alt="Cub Admin Logo" />
         <span v-show="!isCollapse" class="font-bold whitespace-nowrap">Cub Admin</span>
       </div>
     </template>

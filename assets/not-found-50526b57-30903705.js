@@ -1,0 +1,1 @@
+import{d as t,u as n,h as o,I as u}from"./index-07bfb478.js";const s=t({name:"CubPageNotFound",setup(){const e=n();return()=>o("div",{},[o("span",{onclick:()=>{e.back(),u(e.currentRoute.value)}},"返回上一页")])}});export{s as default};

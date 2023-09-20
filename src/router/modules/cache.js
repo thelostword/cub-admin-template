@@ -20,7 +20,7 @@ export const cacheTestRoutes = [
         },
       },
       {
-        path: '',
+        path: 'lv2',
         meta: { title: 'cache测试' },
         children: [
           {
@@ -31,7 +31,7 @@ export const cacheTestRoutes = [
             },
           },
           {
-            path: '',
+            path: 'lv3',
             meta: { title: 'cache测试' },
             children: [
               {

@@ -8,7 +8,9 @@
     </template>
 
     <template #headerLeft>
-      headerLeft
+      <!-- headerLeft -->
+      <!-- 使用组合菜单 -->
+      <!-- <CubTopMixedMenu /> -->
     </template>
 
     <template #headerTools>
@@ -25,6 +27,7 @@
 
 <script setup>
 import { CubLayout } from 'cub-admin';
+// import { CubTopMixedMenu } from 'cub-admin';
 
 import {
   CubFullscreen, CubModeSwitch, CubPrimaryColorChange,

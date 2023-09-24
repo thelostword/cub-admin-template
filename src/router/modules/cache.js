@@ -20,7 +20,29 @@ export const cacheTestRoutes = [
         },
       },
       {
-        path: 'lv2',
+        path: '1?id=111',
+        meta: {
+          title: 'query参数缓存测试',
+          onlyMenu: true,
+        },
+      },
+      {
+        path: '5/:id',
+        component: '/cache-test5.vue',
+        meta: {
+          title: '带参数缓存测试',
+          onlyRoute: true,
+        },
+      },
+      {
+        path: '5/33',
+        meta: {
+          title: 'params参数缓存测试',
+          onlyMenu: true,
+        },
+      },
+      {
+        path: '',
         meta: { title: 'cache测试' },
         children: [
           {
@@ -31,7 +53,7 @@ export const cacheTestRoutes = [
             },
           },
           {
-            path: 'lv3',
+            path: '',
             meta: { title: 'cache测试' },
             children: [
               {

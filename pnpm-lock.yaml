@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0(vue@3.3.4)
   cub-admin:
-    specifier: 0.0.0-alpha.2
-    version: 0.0.0-alpha.2(element-plus@2.3.12)(vue-router@4.2.4)(vue@3.3.4)
+    specifier: 0.0.0-alpha.4
+    version: 0.0.0-alpha.4(element-plus@2.3.12)(vue-router@4.2.4)(vue@3.3.4)
   element-plus:
     specifier: ^2.3.12
     version: 2.3.12(vue@3.3.4)
@@ -2258,8 +2258,8 @@ packages:
   /csstype@3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
 
-  /cub-admin@0.0.0-alpha.2(element-plus@2.3.12)(vue-router@4.2.4)(vue@3.3.4):
-    resolution: {integrity: sha512-d1xdLGThHoTTIrU4pElxs+dlAjRsir8s7JDIUWE3BUDeKQ0o4Rix79sHXG48rWAHvWYes2U4tVXXckR472p4cw==}
+  /cub-admin@0.0.0-alpha.4(element-plus@2.3.12)(vue-router@4.2.4)(vue@3.3.4):
+    resolution: {integrity: sha512-WVnhaIE0fWxiFFQgh08j37hpkLK8xFewIhOredNvcNhDrQqCQp5fLK3GujUV5LP13I82pWMRRk3zDtXnzN77Mg==}
     requiresBuild: true
     peerDependencies:
       element-plus: ^2.3.8
@@ -2271,7 +2271,6 @@ packages:
       color: 4.2.3
       element-plus: 2.3.12(vue@3.3.4)
       lodash-es: 4.17.21
-      mitt: 3.0.1
       vue: 3.3.4
       vue-router: 4.2.4(vue@3.3.4)
     transitivePeerDependencies:
@@ -4656,10 +4655,6 @@ packages:
   /minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
     dev: true
-
-  /mitt@3.0.1:
-    resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
-    dev: false
 
   /mlly@1.4.2:
     resolution: {integrity: sha512-i/Ykufi2t1EZ6NaPLdfnZk2AX8cs0d+mTzVKuPfqPKPatxLApaBoxJQ9x1/uckXtrS/U5oisPMDkNs0yQTaBRg==}

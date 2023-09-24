@@ -34,7 +34,7 @@ export const dynamicRoutes = [
     path: '/',
     component: 'CubLayout',
     meta: {
-      title: 'cache测试',
+      title: '动态模块测试',
       icon: Plus,
     },
     children: [

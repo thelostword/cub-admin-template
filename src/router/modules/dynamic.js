@@ -1,4 +1,4 @@
-import { Plus } from '@element-plus/icons-vue';
+import IcOutlineFeaturedPlayList from '~icons/ic/outline-featured-play-list';
 
 export const dynamicTestRoutes = [
   {
@@ -6,7 +6,7 @@ export const dynamicTestRoutes = [
     component: 'CubLayout',
     meta: {
       title: '动态路由测试',
-      icon: Plus,
+      icon: IcOutlineFeaturedPlayList,
     },
     children: [
       {
@@ -35,7 +35,7 @@ export const dynamicRoutes = [
     component: 'CubLayout',
     meta: {
       title: '动态模块测试',
-      icon: Plus,
+      icon: IcOutlineFeaturedPlayList,
     },
     children: [
       {

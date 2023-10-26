@@ -3,12 +3,11 @@ import { fileURLToPath, URL } from 'node:url';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 
-// eslint-disable-next-line import/no-unresolved
+/* eslint-disable */
 import UnoCSS from 'unocss/vite';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { presetWind } from 'unocss';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import svgLoader from 'vite-svg-loader';
+import Icons from 'unplugin-icons/vite';
+/* eslint-enable */
 
 // https://vitejs.dev/config/
 export default ({ mode }) => defineConfig({
@@ -21,7 +20,9 @@ export default ({ mode }) => defineConfig({
         prefix: '',
       })],
     }),
-    svgLoader(),
+    Icons({
+      autoInstall: true,
+    }),
   ],
   resolve: {
     alias: {

@@ -24,5 +24,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     'symbol-description': 0,
     'no-plusplus': 0,
+    'import/no-unresolved': ['error', { ignore: ['^virtual:', '^~icons'] }],
+    'import/extensions': ['error', { ignore: ['^~icons'] }],
   },
 };

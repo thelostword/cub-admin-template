@@ -7,9 +7,6 @@
 <script setup>
 import { onMounted } from 'vue';
 
-defineOptions({
-  name: 'DynamicTestPage',
-});
 onMounted(() => {
 
 });

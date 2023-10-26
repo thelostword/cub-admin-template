@@ -16,7 +16,6 @@
     <template #headerTools>
       <CubModeSwitch />
       <CubPrimaryColorChange />
-      <CubFullscreen />
     </template>
 
     <template #headerRight>
@@ -27,11 +26,9 @@
 
 <script setup>
 import { CubLayout } from 'cub-admin';
+import CubModeSwitch from './components/cub-mode-switch.vue';
+import CubPrimaryColorChange from './components/cub-primary-color-change.vue';
 // import { CubTopMixedMenu } from 'cub-admin';
-
-import {
-  CubFullscreen, CubModeSwitch, CubPrimaryColorChange,
-} from 'cub-admin/dist/components';
 </script>
 
 <style lang="scss" scoped>

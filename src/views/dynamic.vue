@@ -10,10 +10,6 @@ import { ref } from 'vue';
 import { registerRoutes, unregisterRoutes } from 'cub-admin';
 import { dynamicRoutes } from '../router/modules/dynamic';
 
-defineOptions({
-  name: 'DynamicPage',
-});
-
 // TODO 待处理, 重复注册问题
 const flag = ref(false);
 const onRegister = async () => {

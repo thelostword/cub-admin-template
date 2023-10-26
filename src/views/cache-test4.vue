@@ -8,9 +8,6 @@
 <script setup>
 import { onMounted, ref } from 'vue';
 
-defineOptions({
-  name: 'CacheTestPage4',
-});
 const value = ref('');
 
 onMounted(() => {

@@ -1,4 +1,4 @@
-import { Plus } from '@element-plus/icons-vue';
+import IcOutlineFeaturedPlayList from '~icons/ic/outline-featured-play-list';
 
 export const cacheTestRoutes = [
   {
@@ -6,7 +6,7 @@ export const cacheTestRoutes = [
     component: 'CubLayout',
     meta: {
       title: 'cache测试',
-      icon: Plus,
+      icon: IcOutlineFeaturedPlayList,
     },
     children: [
       {
